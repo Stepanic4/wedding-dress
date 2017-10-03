@@ -308,11 +308,16 @@ span {
     padding: 15px 58px;
     transition: 0.5s;
 }
+
+#wrapper-inner {
+    background-image: url(../source/images/ground.png);
+    background-repeat: no-repeat;
+}
+
 /*////////////////////////////////////// STUDIO /////////////////////////////////////////////////////////*/
 #studio {
     height: 777px;
     width: 100%;
-    background-image: url(../source/images/bord.png);
 }
 .refer-left {
     margin: 5% 0 0 10%;
@@ -373,7 +378,6 @@ span {
     height: 100%;
     width: 100%;
     text-align: center;
-    background-image: url(../source/images/botom.png);
     margin-top: -0.18%;
     margin-bottom: 50px;
 }
@@ -435,7 +439,7 @@ data {
     }
     .refer-left p {
         text-align: justify;
-        margin: 0 5% 0 5%;
+        margin: 0 5% 3% 5%;
     }
     .refer-right {
         float: none;
@@ -605,7 +609,7 @@ data {
 
 @media(max-width: 600px) {
     #shop { margin-top: 0; }
-    h1 { font-size: 20px; }
+    h1 { font-size: 18px; margin-left: 10px; margin-right: 10px; }
     .clos {
         padding: 3% 5%;
         width: 95%;
